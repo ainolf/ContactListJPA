@@ -1,8 +1,8 @@
-const RETRIEVE_ALL = "http://localhost:8080/contacts"
-const POST = "http://localhost:8080/contacts/create"
-const DELETE = "http://localhost:8080/contacts/delete/"
-const RETRIEVE_ONE = "http://localhost:8080/contacts/retrieve/"
-const UPDATE = "http://localhost:8080/contacts/update"
+const RETRIEVE_ALL = "/contacts"
+const POST = "/contacts/create"
+const DELETE = "/contacts/delete/"
+const RETRIEVE_ONE = "/contacts/retrieve/"
+const UPDATE = "/contacts/update"
 
 Vue.createApp({
     data() {
