@@ -88,6 +88,12 @@
       <version>${cucumber.version}</version>
       <scope>test</scope>
     </dependency>
+<!--    Webdriver-->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.17.0</version>
+    </dependency>
 <!--    <dependency>-->
 <!--      <groupId>org.junit.platform</groupId>-->
 <!--      <artifactId>junit-platform-suite-api</artifactId>-->
