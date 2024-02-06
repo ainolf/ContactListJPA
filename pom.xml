@@ -64,7 +64,18 @@
       <artifactId>rest-assured</artifactId>
       <scope>test</scope>
     </dependency>
-<!--    Cucumber-->
+<!--    Pruebas unitarias-->
+    <dependency>
+      <groupId>org.junit.platform</groupId>
+      <artifactId>junit-platform-suite</artifactId>
+      <version>1.8.2</version>
+    </dependency>
+<!--    Para legibilidad de pruebas unitarias-->
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>java-hamcrest</artifactId>
+      <version>2.0.0.0</version>
+    </dependency><!--    Cucumber-->
     <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-java</artifactId>
@@ -77,6 +88,12 @@
       <version>${cucumber.version}</version>
       <scope>test</scope>
     </dependency>
+<!--    <dependency>-->
+<!--      <groupId>org.junit.platform</groupId>-->
+<!--      <artifactId>junit-platform-suite-api</artifactId>-->
+<!--      <version>1.8.2</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
   </dependencies>
   <build>
     <plugins>
