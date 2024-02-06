@@ -13,10 +13,10 @@ public class ContactResourceTest {
     @Test
     public void primerTest() {
         Contact obtenido = given()
-                .when().get("contacts/retrieve/3")
+                .when().get("contacts/retrieve/12")
                 .body()
                 .as(Contact.class);
 
-        assertThat(obtenido, is(new Contact("martin", "belmonte", "3", null)));
+        assertThat(obtenido, is(new Contact("uno", "dos", "12", null)));
     }
 }
