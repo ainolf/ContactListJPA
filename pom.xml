@@ -16,6 +16,7 @@
     <cucumber.version>7.15.0</cucumber.version>
     <skipITs>true</skipITs>
     <surefire-plugin.version>3.0.0</surefire-plugin.version>
+    <maven.home>/opt/apache-maven-3.9.3/bin//mvn</maven.home>
   </properties>
   <dependencyManagement>
     <dependencies>

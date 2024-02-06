@@ -1,27 +1,23 @@
 package resources;
 
-import io.cucumber.java.After;
 import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-//import org.jboss.logging.Logger;
-import org.jboss.logmanager.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class AddContactTest {
     private static WebDriver webDriver;
-    private static final String pathToChromeWebdriver = "/home/oscar/Oscar/Software/chromedriver";
+//    private static final String pathToChromeWebdriver = "/home/oscar/Oscar/Software/chromedriver";
     private static final String localhost = "http://localhost:8080";
 //    private static final Logger log = Logger.getLogger();
 
